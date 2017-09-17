@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['readstring',['ReadString',['../class_m_s_wifi_import_plugin_1_1_data_string.html#abb48748b36ea55f0ddce42dc8bfff298',1,'MSWifiImportPlugin::DataString']]],
-  ['readxml',['ReadXml',['../class_m_s_wifi_import_plugin_1_1_abstract_data.html#a260403ce9107078d2100b68ca7d61c0f',1,'MSWifiImportPlugin.AbstractData.ReadXml()'],['../class_m_s_wifi_import_plugin_1_1_data.html#a0766686967a3c8c9406c843d8cd6fe87',1,'MSWifiImportPlugin.Data.ReadXml()'],['../class_m_s_wifi_import_plugin_1_1_data_data.html#a955b8cfe41dd9dcfc8b2817860e752c5',1,'MSWifiImportPlugin.DataData.ReadXml()'],['../class_m_s_wifi_import_plugin_1_1_data.html#aa7f6a6db96e0a1b06282eb0fcdea0b37',1,'MSWifiImportPlugin.Data.ReadXml()']]],
-  ['rename_5fnew_5fone',['RENAME_NEW_ONE',['../class_m_s_wifi_import_plugin_1_1_m_s_wifi_x_m_l.html#aa97fa9a497172d58ce70c76b8d90d205ac1fccf341fc591d5686b7801c7d24a44',1,'MSWifiImportPlugin::MSWifiXML']]],
-  ['replace',['REPLACE',['../class_m_s_wifi_import_plugin_1_1_m_s_wifi_x_m_l.html#aa97fa9a497172d58ce70c76b8d90d205a560a2dd6f6744646473b3b19e1fe96d7',1,'MSWifiImportPlugin::MSWifiXML']]]
+  ['savein',['SaveIn',['../class_m_s_wifi_import_plugin_1_1_abstract_data.html#a708f79b89038fcc5deb45961ecd22812',1,'MSWifiImportPlugin.AbstractData.SaveIn()'],['../class_m_s_wifi_import_plugin_1_1_data.html#a658ee2462a414e5ffb99f3d5655b88e3',1,'MSWifiImportPlugin.Data.SaveIn()'],['../class_m_s_wifi_import_plugin_1_1_data_data.html#ae9a018b0983b5e46bd4f010e6d24d543',1,'MSWifiImportPlugin.DataData.SaveIn()'],['../class_m_s_wifi_import_plugin_1_1_data.html#a5074a8d023eb1146b5db092c7879c6c9',1,'MSWifiImportPlugin.Data.SaveIn()']]],
+  ['setprofile',['SetProfile',['../class_m_s_wifi_import_plugin_1_1_win_wlan_1_1_wlan_interface.html#a9bb93abfabbb4b248331f49c8866d84a',1,'MSWifiImportPlugin::WinWlan::WlanInterface']]],
+  ['systeminterface',['SystemInterface',['../class_m_s_wifi_import_plugin_1_1_win_wlan_1_1_system_interface.html',1,'MSWifiImportPlugin::WinWlan']]]
 ];
