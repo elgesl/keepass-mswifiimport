@@ -1,0 +1,6 @@
+var class_m_s_wifi_import_plugin_1_1_wlan_profile_1_1_m_s_m_data_1_1_security_data_1_1_one_x_data_1_00b7c78dec9d80065ba5e4baaed786b4 =
+[
+    [ "disaUserPrompServerValid", "class_m_s_wifi_import_plugin_1_1_wlan_profile_1_1_m_s_m_data_1_1_security_data_1_1_one_x_data_1_00b7c78dec9d80065ba5e4baaed786b4.html#a23d02617a609a2ccefa430cd741c71bb", null ],
+    [ "serverNames", "class_m_s_wifi_import_plugin_1_1_wlan_profile_1_1_m_s_m_data_1_1_security_data_1_1_one_x_data_1_00b7c78dec9d80065ba5e4baaed786b4.html#a285fce5f8c491b01cd86143c1fb19f41", null ],
+    [ "trustedRootCA", "class_m_s_wifi_import_plugin_1_1_wlan_profile_1_1_m_s_m_data_1_1_security_data_1_1_one_x_data_1_00b7c78dec9d80065ba5e4baaed786b4.html#a0d9e21e367651e9c9a103fccde42d2ef", null ]
+];

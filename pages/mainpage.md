@@ -21,7 +21,7 @@ The same is true for the supported .xml-files.
 
 ### Future plans
 Detailed future plans can be found in the [issues](https://github.com/elgesl/keepass-mswifiimport/issues), but (skipping all details) the future plans are
-- Extend the plugin to a fully supported plugin of KeePass, e.g. include translations etc.
+- Extend the plugin to a fully supported plugin of KeePass, e.g. include translations, let the user choose the group we import data to, use the export system of KeePass, etc. Help would be really, really appreciated!
 - Optimize the user interface, e.g. let the user choose the group we import wifi connection information to.
 - Completely support everything Windows safes in the wifi connection information instead of only what we need.
 - Make a second project being an analogos plugin for KeePass2Android and therefore be able to move the wifi information safely between systems etc.

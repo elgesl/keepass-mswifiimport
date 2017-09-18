@@ -84,11 +84,15 @@ $(document).ready(function(){initNavTree('exporttoxml.html','');});
 <div class="title">Export wifi informations to a .xml-file </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>You can export the information of a wireless connection stored in an database entry by right click on it <code>Selected Entries</code> &rarr; <code>Export</code> &rarr; <code>Wifi Connection manager</code>, <code>Windows Wifi Export via NetSH</code>.</p>
+<div class="textblock"><p>You can export the information of a wireless connection stored in an database entry (back) to the windows system by right click on it <code>Selected Entries</code> &rarr; <code>In .xml Datei exportieren</code>.</p>
 <h3>Warning</h3>
 <ul>
-<li>Passwords are unprotected when safed to a .xml-file! </li>
+<li>Passwords are unprotected when safed to a .xml-file!</li>
+<li>If the entry does not contain the valid information of a wifi connection, then context menu entry <code>In .xml exportieren</code> will not exist.</li>
 </ul>
+<h3>Why do we not use the normal "Export" dialog?</h3>
+<p>I think the main reason is that I do not fully understand the KeePass Interfaces and do not find any explanatin of it.</p>
+<p>The reason is that we cannot export <em>every</em> entry, but only quite special ones. And I do not see how I can implement this using the export system of KeePass. Furthermore, we cannot export to a single file (and I did not find any way to let the user choose a directory if I use the export system of KeePass.) </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

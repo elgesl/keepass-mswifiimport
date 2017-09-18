@@ -94,44 +94,77 @@ Inheritance diagram for MSWifiImportPlugin.MSWifiSystem:</div>
  <div class="center">
   <img src="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.png" usemap="#MSWifiImportPlugin.MSWifiSystem_map" alt=""/>
   <map id="MSWifiImportPlugin.MSWifiSystem_map" name="MSWifiImportPlugin.MSWifiSystem_map">
+<area href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html" title="Basic class for our import/export providers. We need that as both share a large set of methods..." alt="MSWifiImportPlugin.MSWifi" shape="rect" coords="0,56,205,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a66ab6d7b354d64bf62fecd9629701e98"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; String, WlanProfile &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a66ab6d7b354d64bf62fecd9629701e98">GetSystemProfiles</a> (IStatusLogger slLogger=null, double totalProcents=100, double minProcents=0)</td></tr>
+<tr class="memitem:a66ab6d7b354d64bf62fecd9629701e98"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; String, <a class="el" href="class_m_s_wifi_import_plugin_1_1_wlan_profile.html">WlanProfile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a66ab6d7b354d64bf62fecd9629701e98">GetSystemProfiles</a> (IStatusLogger slLogger=null, double totalProcents=100, double minProcents=0)</td></tr>
 <tr class="memdesc:a66ab6d7b354d64bf62fecd9629701e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads all Wifi Profiles saved in the system (for any interface) <a href="#a66ab6d7b354d64bf62fecd9629701e98">More...</a><br /></td></tr>
 <tr class="separator:a66ab6d7b354d64bf62fecd9629701e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08659a2ec1c926306863378091f96907"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a08659a2ec1c926306863378091f96907">Import</a> (PwDatabase pwStorage, Stream sInput, IStatusLogger slLogger)</td></tr>
 <tr class="memdesc:a08659a2ec1c926306863378091f96907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read from a xml file <a href="#a08659a2ec1c926306863378091f96907">More...</a><br /></td></tr>
 <tr class="separator:a08659a2ec1c926306863378091f96907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html">MSWifiImportPlugin.MSWifi</a></td></tr>
+<tr class="memitem:a95301f1cdaa46b3095637bd080a6e3c4 inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memItemLeft" align="right" valign="top">PwEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#a95301f1cdaa46b3095637bd080a6e3c4">ExistingEntryInGroup</a> (PwGroup inGroup, <a class="el" href="class_m_s_wifi_import_plugin_1_1_wlan_profile.html">WlanProfile</a> wlan)</td></tr>
+<tr class="memdesc:a95301f1cdaa46b3095637bd080a6e3c4 inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches in a given group (non-recursively) for an existing entry for a given wifi information.  <a href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#a95301f1cdaa46b3095637bd080a6e3c4">More...</a><br /></td></tr>
+<tr class="separator:a95301f1cdaa46b3095637bd080a6e3c4 inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40e81e1252e9ca4657b90e8558b615bd inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memItemLeft" align="right" valign="top">PwGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#a40e81e1252e9ca4657b90e8558b615bd">GetStandardGroup</a> (PwDatabase pwStorage, bool askUserIfDoesntExist=true)</td></tr>
+<tr class="memdesc:a40e81e1252e9ca4657b90e8558b615bd inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for the basic group. This is "WLan" in the root group.  <a href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#a40e81e1252e9ca4657b90e8558b615bd">More...</a><br /></td></tr>
+<tr class="separator:a40e81e1252e9ca4657b90e8558b615bd inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae556eb1c316d64ddcd4c4603b41e1e13 inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memItemLeft" align="right" valign="top">PwEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ae556eb1c316d64ddcd4c4603b41e1e13">ImportTo</a> (<a class="el" href="class_m_s_wifi_import_plugin_1_1_wlan_profile.html">WlanProfile</a> wlan, PwDatabase pwStorage, PwGroup group, <a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ace818268ffd42160aa058f90bfa146b8">BehaviourForExEntry</a> behaviour=<a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ace818268ffd42160aa058f90bfa146b8a31646b95e6ac4432e2211f3251c2dc97">BehaviourForExEntry.ASK_USER</a>, IStatusLogger slLogger=null, double totalProcents=60, double minProcents=20)</td></tr>
+<tr class="memdesc:ae556eb1c316d64ddcd4c4603b41e1e13 inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports a wlan connection information to the database. If the entry already exists, then the parameter behaviour defines the behaviour  <a href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ae556eb1c316d64ddcd4c4603b41e1e13">More...</a><br /></td></tr>
+<tr class="separator:ae556eb1c316d64ddcd4c4603b41e1e13 inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf079ac223eb02bd30f137185c077163 inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#adf079ac223eb02bd30f137185c077163">Export</a> (PwDatabase pwStorage, PwEntry entry, Stream sOutput, IStatusLogger slLogger=null, double totalProcents=60, double minProcents=20)</td></tr>
+<tr class="memdesc:adf079ac223eb02bd30f137185c077163 inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exports a wlan connection information from the database to a .xml profil.  <a href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#adf079ac223eb02bd30f137185c077163">More...</a><br /></td></tr>
+<tr class="separator:adf079ac223eb02bd30f137185c077163 inherit pub_methods_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a48664e0831d407a5cbff358c5a6dc1e1"><td class="memItemLeft" align="right" valign="top"><a id="a48664e0831d407a5cbff358c5a6dc1e1"></a>
-override bool&#160;</td><td class="memItemRight" valign="bottom"><b>RequiresFile</b><code> [get]</code></td></tr>
-<tr class="separator:a48664e0831d407a5cbff358c5a6dc1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d6c54b5460c673175de8fe10a4d6130"><td class="memItemLeft" align="right" valign="top"><a id="a9d6c54b5460c673175de8fe10a4d6130"></a>
-override bool&#160;</td><td class="memItemRight" valign="bottom"><b>SupportsImport</b><code> [get]</code></td></tr>
+<tr class="memitem:a9d6c54b5460c673175de8fe10a4d6130"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a9d6c54b5460c673175de8fe10a4d6130">SupportsImport</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9d6c54b5460c673175de8fe10a4d6130"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jep, this is pretty much what we are doing... <a href="#a9d6c54b5460c673175de8fe10a4d6130">More...</a><br /></td></tr>
 <tr class="separator:a9d6c54b5460c673175de8fe10a4d6130"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d6ad55bc03c9ab7c2178f386c4b1ee3"><td class="memItemLeft" align="right" valign="top"><a id="a0d6ad55bc03c9ab7c2178f386c4b1ee3"></a>
-override bool&#160;</td><td class="memItemRight" valign="bottom"><b>SupportsExport</b><code> [get]</code></td></tr>
-<tr class="separator:a0d6ad55bc03c9ab7c2178f386c4b1ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2318c6f14e3f218ce110e6704bc62bc7"><td class="memItemLeft" align="right" valign="top"><a id="a2318c6f14e3f218ce110e6704bc62bc7"></a>
-override String&#160;</td><td class="memItemRight" valign="bottom"><b>FormatName</b><code> [get]</code></td></tr>
-<tr class="separator:a2318c6f14e3f218ce110e6704bc62bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7344f977d74940689dc1faaeca783b38"><td class="memItemLeft" align="right" valign="top"><a id="a7344f977d74940689dc1faaeca783b38"></a>
-override String&#160;</td><td class="memItemRight" valign="bottom"><b>DefaultExtension</b><code> [get]</code></td></tr>
-<tr class="separator:a7344f977d74940689dc1faaeca783b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bfe3386afe991c18ef3c63c6e33e1ec"><td class="memItemLeft" align="right" valign="top"><a id="a1bfe3386afe991c18ef3c63c6e33e1ec"></a>
-override String&#160;</td><td class="memItemRight" valign="bottom"><b>ApplicationGroup</b><code> [get]</code></td></tr>
-<tr class="separator:a1bfe3386afe991c18ef3c63c6e33e1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71b38267ee99c308429a6e7288042c05"><td class="memItemLeft" align="right" valign="top"><a id="a71b38267ee99c308429a6e7288042c05"></a>
-override bool&#160;</td><td class="memItemRight" valign="bottom"><b>ImportAppendsToRootGroupOnly</b><code> [get]</code></td></tr>
+<tr class="memitem:a71b38267ee99c308429a6e7288042c05"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a71b38267ee99c308429a6e7288042c05">ImportAppendsToRootGroupOnly</a><code> [get]</code></td></tr>
+<tr class="memdesc:a71b38267ee99c308429a6e7288042c05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nope, for several reasons we import to a specific group (although it would be better if the user could choose the group).  <a href="#a71b38267ee99c308429a6e7288042c05">More...</a><br /></td></tr>
 <tr class="separator:a71b38267ee99c308429a6e7288042c05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c9e86143363c76ec0fa8a67f115c2c8"><td class="memItemLeft" align="right" valign="top"><a id="a8c9e86143363c76ec0fa8a67f115c2c8"></a>
-override Image&#160;</td><td class="memItemRight" valign="bottom"><b>SmallIcon</b><code> [get]</code></td></tr>
+<tr class="memitem:a48664e0831d407a5cbff358c5a6dc1e1"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a48664e0831d407a5cbff358c5a6dc1e1">RequiresFile</a><code> [get]</code></td></tr>
+<tr class="memdesc:a48664e0831d407a5cbff358c5a6dc1e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">No, this does not need a file as we directly read from the system <a href="#a48664e0831d407a5cbff358c5a6dc1e1">More...</a><br /></td></tr>
+<tr class="separator:a48664e0831d407a5cbff358c5a6dc1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d6ad55bc03c9ab7c2178f386c4b1ee3"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a0d6ad55bc03c9ab7c2178f386c4b1ee3">SupportsExport</a><code> [get]</code></td></tr>
+<tr class="memdesc:a0d6ad55bc03c9ab7c2178f386c4b1ee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">As we cannot export the full database, this is false <a href="#a0d6ad55bc03c9ab7c2178f386c4b1ee3">More...</a><br /></td></tr>
+<tr class="separator:a0d6ad55bc03c9ab7c2178f386c4b1ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2318c6f14e3f218ce110e6704bc62bc7"><td class="memItemLeft" align="right" valign="top">override String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a2318c6f14e3f218ce110e6704bc62bc7">FormatName</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2318c6f14e3f218ce110e6704bc62bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Just the name for our import module. <a href="#a2318c6f14e3f218ce110e6704bc62bc7">More...</a><br /></td></tr>
+<tr class="separator:a2318c6f14e3f218ce110e6704bc62bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7344f977d74940689dc1faaeca783b38"><td class="memItemLeft" align="right" valign="top">override String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a7344f977d74940689dc1faaeca783b38">DefaultExtension</a><code> [get]</code></td></tr>
+<tr class="memdesc:a7344f977d74940689dc1faaeca783b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">We do not use files... <a href="#a7344f977d74940689dc1faaeca783b38">More...</a><br /></td></tr>
+<tr class="separator:a7344f977d74940689dc1faaeca783b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bfe3386afe991c18ef3c63c6e33e1ec"><td class="memItemLeft" align="right" valign="top">override String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a1bfe3386afe991c18ef3c63c6e33e1ec">ApplicationGroup</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1bfe3386afe991c18ef3c63c6e33e1ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Just our name <a href="#a1bfe3386afe991c18ef3c63c6e33e1ec">More...</a><br /></td></tr>
+<tr class="separator:a1bfe3386afe991c18ef3c63c6e33e1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c9e86143363c76ec0fa8a67f115c2c8"><td class="memItemLeft" align="right" valign="top">override Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a8c9e86143363c76ec0fa8a67f115c2c8">SmallIcon</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8c9e86143363c76ec0fa8a67f115c2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The icon without ".xml" <a href="#a8c9e86143363c76ec0fa8a67f115c2c8">More...</a><br /></td></tr>
 <tr class="separator:a8c9e86143363c76ec0fa8a67f115c2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td colspan="2" onclick="javascript:toggleInherit('properties_class_m_s_wifi_import_plugin_1_1_m_s_wifi')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html">MSWifiImportPlugin.MSWifi</a></td></tr>
+<tr class="memitem:a31c9c857eba9b5cbe2bcec48928a0ae0 inherit properties_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memItemLeft" align="right" valign="top">override String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#a31c9c857eba9b5cbe2bcec48928a0ae0">ApplicationGroup</a><code> [get]</code></td></tr>
+<tr class="memdesc:a31c9c857eba9b5cbe2bcec48928a0ae0 inherit properties_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="mdescLeft">&#160;</td><td class="mdescRight">&gt;FileFormatProvider <a href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#a31c9c857eba9b5cbe2bcec48928a0ae0">More...</a><br /></td></tr>
+<tr class="separator:a31c9c857eba9b5cbe2bcec48928a0ae0 inherit properties_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_m_s_wifi_import_plugin_1_1_m_s_wifi')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html">MSWifiImportPlugin.MSWifi</a></td></tr>
+<tr class="memitem:ace818268ffd42160aa058f90bfa146b8 inherit pub_types_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ace818268ffd42160aa058f90bfa146b8">BehaviourForExEntry</a> { <br />
+&#160;&#160;<a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ace818268ffd42160aa058f90bfa146b8a31646b95e6ac4432e2211f3251c2dc97">BehaviourForExEntry.ASK_USER</a> = 0, 
+<a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ace818268ffd42160aa058f90bfa146b8a560a2dd6f6744646473b3b19e1fe96d7">BehaviourForExEntry.REPLACE</a>, 
+<a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ace818268ffd42160aa058f90bfa146b8ac1fccf341fc591d5686b7801c7d24a44">BehaviourForExEntry.RENAME_NEW_ONE</a>, 
+<a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ace818268ffd42160aa058f90bfa146b8ae7175bc3443d089a97951e572f6c705c">BehaviourForExEntry.CANCEL_WITHOUT_ERROR</a>, 
+<br />
+&#160;&#160;<a class="el" href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ace818268ffd42160aa058f90bfa146b8a3192a2454e3a5dd6a867ea5abb344d8f">BehaviourForExEntry.CANCEL_WITH_ERROR</a>
+<br />
+ }<tr class="memdesc:ace818268ffd42160aa058f90bfa146b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This defines the behaviour when we try to insert an entry which already exists.  <a href="class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ace818268ffd42160aa058f90bfa146b8">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ace818268ffd42160aa058f90bfa146b8 inherit pub_types_class_m_s_wifi_import_plugin_1_1_m_s_wifi"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a66ab6d7b354d64bf62fecd9629701e98"></a>
@@ -141,7 +174,7 @@ override Image&#160;</td><td class="memItemRight" valign="bottom"><b>SmallIcon</
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;String, WlanProfile&gt; MSWifiImportPlugin.MSWifiSystem.GetSystemProfiles </td>
+          <td class="memname">Dictionary&lt;String, <a class="el" href="class_m_s_wifi_import_plugin_1_1_wlan_profile.html">WlanProfile</a>&gt; MSWifiImportPlugin.MSWifiSystem.GetSystemProfiles </td>
           <td>(</td>
           <td class="paramtype">IStatusLogger&#160;</td>
           <td class="paramname"><em>slLogger</em> = <code>null</code>, </td>
@@ -221,6 +254,199 @@ override Image&#160;</td><td class="memItemRight" valign="bottom"><b>SmallIcon</
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a1bfe3386afe991c18ef3c63c6e33e1ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bfe3386afe991c18ef3c63c6e33e1ec">&#9670;&nbsp;</a></span>ApplicationGroup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override String MSWifiImportPlugin.MSWifiSystem.ApplicationGroup</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Just our name</p>
+
+</div>
+</div>
+<a id="a7344f977d74940689dc1faaeca783b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7344f977d74940689dc1faaeca783b38">&#9670;&nbsp;</a></span>DefaultExtension</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override String MSWifiImportPlugin.MSWifiSystem.DefaultExtension</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>We do not use files...</p>
+
+</div>
+</div>
+<a id="a2318c6f14e3f218ce110e6704bc62bc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2318c6f14e3f218ce110e6704bc62bc7">&#9670;&nbsp;</a></span>FormatName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override String MSWifiImportPlugin.MSWifiSystem.FormatName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Just the name for our import module.</p>
+
+</div>
+</div>
+<a id="a71b38267ee99c308429a6e7288042c05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b38267ee99c308429a6e7288042c05">&#9670;&nbsp;</a></span>ImportAppendsToRootGroupOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool MSWifiImportPlugin.MSWifiSystem.ImportAppendsToRootGroupOnly</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Nope, for several reasons we import to a specific group (although it would be better if the user could choose the group). </p>
+
+</div>
+</div>
+<a id="a48664e0831d407a5cbff358c5a6dc1e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48664e0831d407a5cbff358c5a6dc1e1">&#9670;&nbsp;</a></span>RequiresFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool MSWifiImportPlugin.MSWifiSystem.RequiresFile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>No, this does not need a file as we directly read from the system</p>
+
+</div>
+</div>
+<a id="a8c9e86143363c76ec0fa8a67f115c2c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c9e86143363c76ec0fa8a67f115c2c8">&#9670;&nbsp;</a></span>SmallIcon</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override Image MSWifiImportPlugin.MSWifiSystem.SmallIcon</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The icon without ".xml"</p>
+
+</div>
+</div>
+<a id="a0d6ad55bc03c9ab7c2178f386c4b1ee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d6ad55bc03c9ab7c2178f386c4b1ee3">&#9670;&nbsp;</a></span>SupportsExport</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool MSWifiImportPlugin.MSWifiSystem.SupportsExport</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>As we cannot export the full database, this is false</p>
+
+</div>
+</div>
+<a id="a9d6c54b5460c673175de8fe10a4d6130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d6c54b5460c673175de8fe10a4d6130">&#9670;&nbsp;</a></span>SupportsImport</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool MSWifiImportPlugin.MSWifiSystem.SupportsImport</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Jep, this is pretty much what we are doing...</p>
 
 </div>
 </div>

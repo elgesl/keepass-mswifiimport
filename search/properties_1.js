@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['fctfromstring',['FctFromString',['../class_m_s_wifi_import_plugin_1_1_data.html#a8393a66dc24b14f9c469322cacee19fe',1,'MSWifiImportPlugin::Data']]],
-  ['fctisvalid',['FctIsValid',['../class_m_s_wifi_import_plugin_1_1_data.html#a13306bd1abb11c7fa28b3bebce6dba70',1,'MSWifiImportPlugin::Data']]],
-  ['fctisvalidstring',['FctIsValidString',['../class_m_s_wifi_import_plugin_1_1_data.html#aa55cdc1bfd859372db413de072e0f927',1,'MSWifiImportPlugin::Data']]],
-  ['fcttostring',['FctToString',['../class_m_s_wifi_import_plugin_1_1_data.html#ad5686cfe94439a2f6137e48f00795c70',1,'MSWifiImportPlugin::Data']]]
+  ['defaultextension',['DefaultExtension',['../class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a7344f977d74940689dc1faaeca783b38',1,'MSWifiImportPlugin.MSWifiSystem.DefaultExtension()'],['../class_m_s_wifi_import_plugin_1_1_m_s_wifi_x_m_l.html#a7a2ae62c42f813237ee9dcc3065e037e',1,'MSWifiImportPlugin.MSWifiXML.DefaultExtension()']]]
 ];

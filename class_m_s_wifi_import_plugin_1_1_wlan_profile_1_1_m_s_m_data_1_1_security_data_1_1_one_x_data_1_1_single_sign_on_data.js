@@ -1,0 +1,6 @@
+var class_m_s_wifi_import_plugin_1_1_wlan_profile_1_1_m_s_m_data_1_1_security_data_1_1_one_x_data_1_1_single_sign_on_data =
+[
+    [ "maxDelay", "class_m_s_wifi_import_plugin_1_1_wlan_profile_1_1_m_s_m_data_1_1_security_data_1_1_one_x_data_1_1_single_sign_on_data.html#ae24c5a64ed63134c711342271cc0e954", null ],
+    [ "type", "class_m_s_wifi_import_plugin_1_1_wlan_profile_1_1_m_s_m_data_1_1_security_data_1_1_one_x_data_1_1_single_sign_on_data.html#a15bba8f968e098e34026f762a48b8f9a", null ],
+    [ "userBasedVirtualLan", "class_m_s_wifi_import_plugin_1_1_wlan_profile_1_1_m_s_m_data_1_1_security_data_1_1_one_x_data_1_1_single_sign_on_data.html#ab0f54e2f8bc2baa0f95338dcd78aedd2", null ]
+];

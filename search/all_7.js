@@ -1,9 +1,13 @@
 var searchData=
 [
+  ['ihv',['IHV',['../class_m_s_wifi_import_plugin_1_1_wlan_profile_1_1_i_h_v.html',1,'MSWifiImportPlugin::WlanProfile']]],
+  ['ihvsecuritydata',['IHVSecurityData',['../class_m_s_wifi_import_plugin_1_1_wlan_profile_1_1_i_h_v_1_1_i_h_v_security_data.html',1,'MSWifiImportPlugin::WlanProfile::IHV']]],
   ['import',['Import',['../class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a08659a2ec1c926306863378091f96907',1,'MSWifiImportPlugin.MSWifiSystem.Import()'],['../class_m_s_wifi_import_plugin_1_1_m_s_wifi_x_m_l.html#a4ec3deaa76b6403cf73fc22c3de8e7f7',1,'MSWifiImportPlugin.MSWifiXML.Import()']]],
+  ['importappendstorootgrouponly',['ImportAppendsToRootGroupOnly',['../class_m_s_wifi_import_plugin_1_1_m_s_wifi_system.html#a71b38267ee99c308429a6e7288042c05',1,'MSWifiImportPlugin.MSWifiSystem.ImportAppendsToRootGroupOnly()'],['../class_m_s_wifi_import_plugin_1_1_m_s_wifi_x_m_l.html#aeaba607aee1ae8204ce092edae7409bb',1,'MSWifiImportPlugin.MSWifiXML.ImportAppendsToRootGroupOnly()']]],
   ['import_20wifi_20informations_20from_20windows',['Import wifi informations from Windows',['../importfromwindows.html',1,'']]],
   ['import_20wifi_20informations_20from_20a_20_2exml_20file',['Import wifi informations from a .xml file',['../importfromxml.html',1,'']]],
-  ['importto',['ImportTo',['../class_m_s_wifi_import_plugin_1_1_m_s_wifi_x_m_l.html#a01c3c0f276a447c842a15c33dedbdff1',1,'MSWifiImportPlugin::MSWifiXML']]],
+  ['importto',['ImportTo',['../class_m_s_wifi_import_plugin_1_1_m_s_wifi.html#ae556eb1c316d64ddcd4c4603b41e1e13',1,'MSWifiImportPlugin::MSWifi']]],
+  ['info',['info',['../class_m_s_wifi_import_plugin_1_1_win_wlan_1_1_wlan_interface.html#a658c73a0c7a1d9083c5c744c99f6518c',1,'MSWifiImportPlugin::WinWlan::WlanInterface']]],
   ['installation',['Installation',['../install.html',1,'']]],
   ['interfacedescription',['interfaceDescription',['../struct_m_s_wifi_import_plugin_1_1_win_wlan_1_1_wlan_interface_info.html#a36f00f366f3a9761727255ee188c0a90',1,'MSWifiImportPlugin::WinWlan::WlanInterfaceInfo']]],
   ['interfaceguid',['interfaceGuid',['../struct_m_s_wifi_import_plugin_1_1_win_wlan_1_1_wlan_interface_info.html#aeb820823bf008dea1a98d2c2e1f8f476',1,'MSWifiImportPlugin.WinWlan.WlanInterfaceInfo.interfaceGuid()'],['../class_m_s_wifi_import_plugin_1_1_win_wlan_1_1_wlan_interface.html#a4bdd2ec999f51a16c01d25ab6795d82d',1,'MSWifiImportPlugin.WinWlan.WlanInterface.InterfaceGuid()']]],

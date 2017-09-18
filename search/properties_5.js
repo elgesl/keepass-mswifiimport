@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writenecessary',['WriteNecessary',['../class_m_s_wifi_import_plugin_1_1_abstract_data.html#a4ef9be1d11576e4222adf3cab4d41945',1,'MSWifiImportPlugin::AbstractData']]]
+  ['networkinterface',['NetworkInterface',['../class_m_s_wifi_import_plugin_1_1_win_wlan_1_1_wlan_interface.html#a7eba0738798a4f0797b7fa32026464d3',1,'MSWifiImportPlugin::WinWlan::WlanInterface']]]
 ];
