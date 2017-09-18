@@ -4,7 +4,7 @@
   
   MSWifiImport - Plugin for importing Windows Wifi information.
   Copyright (C) 2017 Christopher R. Nerz <keepass@phoenixes.de>
-  https://chris.nerz.me/en/keepass-mswifiimportplugin/
+  https://elgesl.github.io/keepass-mswifiimport/
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -141,7 +141,7 @@ namespace MSWifiImportPlugin
                     }
                 }
 
-                // Unsupported xml-subentries are ignored
+                // Unsupported xml-subentries raise are ignored
                 if (!found)
                 {
                     // We have to ensure that the xml-subentry is skipped, even if itself has subentries
@@ -166,7 +166,10 @@ namespace MSWifiImportPlugin
                         continue;
 
                     ent = (AbstractData)propInfo.GetValue(this);
-                    if (ent.IsMandory && !ent.IsValid)
+                    if (!ent.IsMandory)
+                        continue;
+
+                    if (!ent.IsValid)
                         return false;
                 }
 

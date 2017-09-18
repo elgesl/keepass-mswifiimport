@@ -4,7 +4,7 @@
   
   MSWifiImport - Plugin for importing Windows Wifi information.
   Copyright (C) 2017 Christopher R. Nerz <keepass@phoenixes.de>
-  https://chris.nerz.me/en/keepass-mswifiimportplugin/
+  https://elgesl.github.io/keepass-mswifiimport/
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -39,15 +39,26 @@ using KeePass.UI;
 
 namespace MSWifiImportPlugin
 {
-    public class MSWifiSystem : FileFormatProvider
+    public class MSWifiSystem : MSWifi
     {
-        public override bool RequiresFile { get { return false; } }
+        /// <summary>Jep, this is pretty much what we are doing...</summary>
         public override bool SupportsImport { get { return true; } }
-        public override bool SupportsExport { get { return false; } }
-        public override String FormatName { get { return "Read from system"; } }
-        public override String DefaultExtension { get { return null; } }
-        public override String ApplicationGroup { get { return "Wifi Connection manager"; } }
+        /// <summary>
+        /// Nope, for several reasons we import to a specific group (although it would be better
+        /// if the user could choose the group).
+        /// </summary>
         public override bool ImportAppendsToRootGroupOnly { get { return false; } }
+        /// <summary>No, this does not need a file as we directly read from the system</summary>
+        public override bool RequiresFile { get { return false; } }
+        /// <summary>As we cannot export the full database, this is false</summary>
+        public override bool SupportsExport { get { return false; } }
+        /// <summary>Just the name for our import module.</summary>
+        public override String FormatName { get { return "Read from system"; } }
+        /// <summary>We do not use files...</summary>
+        public override String DefaultExtension { get { return null; } }
+        /// <summary>Just our name</summary>
+        public override String ApplicationGroup { get { return "Wifi Connection manager"; } }
+        /// <summary>The icon without ".xml"</summary>
         public override Image SmallIcon { get { return Properties.Resources.B64x64_Imp_Wifi.ToBitmap(); } }
 
         /// <summary>Reads all Wifi Profiles saved in the system (for any interface)</summary>

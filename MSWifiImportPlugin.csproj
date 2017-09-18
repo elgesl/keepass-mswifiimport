@@ -8,7 +8,6 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -66,6 +65,7 @@
   <ItemGroup>
     <Compile Include="basedata.cs" />
     <Compile Include="data.cs" />
+    <Compile Include="MSWifi.cs" />
     <Compile Include="MSWifiSystem.cs" />
     <Compile Include="MSWifiXML.cs" />
     <Compile Include="Properties\Resources.Designer.cs">

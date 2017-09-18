@@ -4,7 +4,7 @@
   
   MSWifiImport - Plugin for importing Windows Wifi information.
   Copyright (C) 2017 Christopher R. Nerz <keepass@phoenixes.de>
-  https://chris.nerz.me/en/keepass-mswifiimportplugin/
+  https://elgesl.github.io/keepass-mswifiimport/
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -38,7 +38,14 @@ using KeePassLib.Security;
 
 namespace MSWifiImportPlugin
 {
-    /// <summary>Contains the information of one Wifi-Connection. By c#-XML-Serialziation each subentry is a child element.</summary>
+    /// <summary>
+    /// Contains the information of one Wifi-Connection.
+    /// <para>By c#-XML-Serialziation each subentry is a child element</para>
+    /// <para>We do not explain the values of the entry as they are "completely" explained in
+    /// the corresponding MS documentation</para>
+    /// <remark>We do not use the MS classes for all this stuff as we want a "nicer" way to save it
+    /// in the KeePass database. If you have an easier/nicer approach, please feal free to contact me.</remark>
+    /// </summary>
     [XmlRootAttribute("WLANProfile", Namespace = "http://www.microsoft.com/networking/WLAN/profile/v1",
 IsNullable = false)]
     public class WlanProfile : Data
@@ -152,7 +159,7 @@ IsNullable = false)]
 
         public class MSMData : Data
         {
-            /* We do not support Connectivity Elements as I did not find an explanation by MS
+            /* We do not support Connectivity Elements as I did not find an explanation of it by MS
             public DataData<ConnectivityData> connectivity
                 = new DataData<ConnectivityData>(...)*/
             // Per standard security is a non-necessary value, but as it is the only value we support,
