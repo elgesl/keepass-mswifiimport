@@ -3,7 +3,7 @@
 This is a plugin for the password manager [KeePass 2.*](http://keepass.info/). It allows to import the informations of the wireless connections saved in Windows to [KeePass 2](http://keepass.info/) and afterwards to export these informations back to Windows. This can be used to backup the existing wireless connections or to transfer them from one Windows system to the next (and hopefully later to other systems, too).
 
 ### About the plugin
-The [source code of the plugin](https://github.com/elgesl/keepass-mswifiimport/) is accessable via [git](https://git-scm.com/) on [https://github.com/elgesl/keepass-mswifiimport.git](). The github basis is [https://github.com/elgesl/keepass-mswifiimport]() and its github page [https://elgesl.github.io/keepass-mswifiimport/]().
+The [source code of the plugin](https://github.com/elgesl/keepass-mswifiimport/) is accessable via [git](https://git-scm.com/) on https://github.com/elgesl/keepass-mswifiimport.git. The github basis is https://github.com/elgesl/keepass-mswifiimport and its github page https://elgesl.github.io/keepass-mswifiimport/.
 
 ### Current version
 So far the plugin is on a alpha version level, but this will change soon(ish). In particular, not all properties of wireless connections are supported. However most wireless connections should work and I will increase the number of properties supported.
