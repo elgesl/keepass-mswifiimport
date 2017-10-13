@@ -58,12 +58,6 @@ namespace MSWifiImportPlugin
         /// </remark>
         private ToolStripMenuItem selectedItemsMenu;
 
-        /// <summary>The seperator seperating our stuff from the standard menu items</summary>
-        /// <remark>
-        /// Hopefully a temporary way to solve the problem explained in <see cref="MSWifiImportPluginExt"/>
-        /// </remark>
-        private int addToWindowsSep;
-
         /// <summary>The entry to export the entries to Windows</summary>
         /// <remark>
         /// Hopefully a temporary way to solve the problem explained in <see cref="MSWifiImportPluginExt"/>
@@ -153,7 +147,6 @@ namespace MSWifiImportPlugin
             }
 
             // All entries are supported, so add our stuff
-            addToWindowsSep = selectedItemsMenu.DropDown.Items.Add(new ToolStripSeparator());
             addToWindows = selectedItemsMenu.DropDown.Items.Add("In Windows einfügen", null, AddEntriesToWindows);
             exportToXML = selectedItemsMenu.DropDown.Items.Add("In .xml Datei exportieren", null, AddEntriesToXML);
         }
@@ -170,7 +163,6 @@ namespace MSWifiImportPlugin
         {
             selectedItemsMenu.DropDownItems.Remove(exportToXML);
             selectedItemsMenu.DropDownItems.Remove(addToWindows);
-            selectedItemsMenu.DropDown.Items.RemoveAt(addToWindowsSep);
         }
 
         /// <summary>Add all entries, we selected to the Windows system.</summary>

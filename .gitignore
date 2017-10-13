@@ -1,2 +1,5 @@
 /html
 /obj/Debug_In_KeePass
+/KeePassBins
+/*.user
+/bin/Debug
